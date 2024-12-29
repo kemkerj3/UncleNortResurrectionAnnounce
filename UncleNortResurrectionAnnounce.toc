@@ -1,5 +1,5 @@
 ## Interface: 11200
-## Title: UncleNort's |cFFFF8080R|resurrection |cFFFF8080A|rnnouncement
+## Title: |cFFFF8080U|ncle|cFFFF8080N|ort's |cFFFF8080R|resurrection |cFFFF8080A|rnnouncement
 ## Author: stokbaek, UncleNort
 ## Notes: Plugin That Adds Resurrection Announce to Chat
 ## Version: 1.1
