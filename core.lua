@@ -19,13 +19,13 @@ end
 function rahealcomm:Ress(sender, target)
   if sender ==  UnitName("player") and target ~= UnitName("player") then
     if ra_options.chat == "0" then
-      SendChatMessage("%t rise in the name of the Light!" .. target, UnitInRaid("player") and "RAID" or "PARTY")
+      SendChatMessage("Rise in the name of the Light!" .. target, UnitInRaid("player") and "RAID" or "PARTY")
     elseif ra_options.chat == "1" then
       if UnitInRaid("player") and "Raid" then
-        SendChatMessage("%t rise in the name of the Light!" .. target, "RAID")
+        SendChatMessage("Rise in the name of the Light!" .. target, "RAID")
       end
     else
-      SendChatMessage("%t rise in the name of the Light!" .. target, "SAY")
+      SendChatMessage("rise in the name of the Light!" .. target, "SAY")
     end
   end
 end
